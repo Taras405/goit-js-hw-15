@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-15",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://taras405.github.io/goit-js-hw-15/",
+  "scripts": {
+    "dev": "parcel",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /goit-js-hw-15/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taras405/goit-js-hw-15.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Taras405/goit-js-hw-15/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "handlebars": "^4.7.8",
+    "parcel": "^2.16.1",
+    "parcel-transformer-hbs": "^1.0.4"
+  }
+}
