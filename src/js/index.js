@@ -1,7 +1,9 @@
 import makeProductsMarkup from "../templates/template.hbs";
 import { products } from "../js/data.js";
 
-// ===== ЗАКЛАДКИ =====
+
+
+
 const refs = {
   bookmarkInput: document.querySelector("#bookmarkInput"),
   addBookmarkBtn: document.querySelector("#addBookmarkBtn"),
@@ -63,7 +65,9 @@ refs.addBookmarkBtn.addEventListener("click", () => {
 
 renderBookmarks();
 
-// ===== ФОРМА =====
+
+
+
 const refs2 = {
   username: document.querySelector("#username"),
   password: document.querySelector("#password"),
@@ -92,7 +96,9 @@ refs2.saveBtn.addEventListener("click", saveFormData);
 
 loadFormData();
 
-// ===== ПРОДУКТИ =====
+
+
+
 const container = document.querySelector(".product__placeholder");
 const searchInput = document.querySelector("#searchInput");
 

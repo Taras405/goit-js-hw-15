@@ -718,7 +718,6 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _templateHbs = require("../templates/template.hbs");
 var _templateHbsDefault = parcelHelpers.interopDefault(_templateHbs);
 var _dataJs = require("../js/data.js");
-// ===== ЗАКЛАДКИ =====
 const refs = {
     bookmarkInput: document.querySelector("#bookmarkInput"),
     addBookmarkBtn: document.querySelector("#addBookmarkBtn"),
@@ -770,7 +769,6 @@ refs.addBookmarkBtn.addEventListener("click", ()=>{
     }
 });
 renderBookmarks();
-// ===== ФОРМА =====
 const refs2 = {
     username: document.querySelector("#username"),
     password: document.querySelector("#password"),
@@ -789,7 +787,6 @@ function saveFormData() {
 }
 refs2.saveBtn.addEventListener("click", saveFormData);
 loadFormData();
-// ===== ПРОДУКТИ =====
 const container = document.querySelector(".product__placeholder");
 const searchInput = document.querySelector("#searchInput");
 function renderProducts(list) {
