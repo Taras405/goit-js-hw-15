@@ -1,5 +1,8 @@
+import makeProductsMarkup from "../templates/template.hbs";
+import { products } from "../js/data.js";
+
+// ===== ЗАКЛАДКИ =====
 const refs = {
-  bookmarkApp: document.querySelector("#bookmarkApp"),
   bookmarkInput: document.querySelector("#bookmarkInput"),
   addBookmarkBtn: document.querySelector("#addBookmarkBtn"),
   bookmarkList: document.querySelector("#bookmarkList"),
@@ -59,9 +62,8 @@ refs.addBookmarkBtn.addEventListener("click", () => {
 });
 
 renderBookmarks();
-//
-//
-//
+
+// ===== ФОРМА =====
 const refs2 = {
   username: document.querySelector("#username"),
   password: document.querySelector("#password"),
@@ -89,12 +91,8 @@ function saveFormData() {
 refs2.saveBtn.addEventListener("click", saveFormData);
 
 loadFormData();
-//
-//
-//
-import makeProductsMarkup from "../templates/template.hbs";
-import { products } from "../js/data.js";
 
+// ===== ПРОДУКТИ =====
 const container = document.querySelector(".product__placeholder");
 const searchInput = document.querySelector("#searchInput");
 

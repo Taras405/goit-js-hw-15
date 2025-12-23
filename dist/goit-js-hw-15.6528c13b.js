@@ -715,14 +715,11 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"6kb64":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-//
-//
-//
 var _templateHbs = require("../templates/template.hbs");
 var _templateHbsDefault = parcelHelpers.interopDefault(_templateHbs);
 var _dataJs = require("../js/data.js");
+// ===== ЗАКЛАДКИ =====
 const refs = {
-    bookmarkApp: document.querySelector("#bookmarkApp"),
     bookmarkInput: document.querySelector("#bookmarkInput"),
     addBookmarkBtn: document.querySelector("#addBookmarkBtn"),
     bookmarkList: document.querySelector("#bookmarkList")
@@ -773,9 +770,7 @@ refs.addBookmarkBtn.addEventListener("click", ()=>{
     }
 });
 renderBookmarks();
-//
-//
-//
+// ===== ФОРМА =====
 const refs2 = {
     username: document.querySelector("#username"),
     password: document.querySelector("#password"),
@@ -794,6 +789,7 @@ function saveFormData() {
 }
 refs2.saveBtn.addEventListener("click", saveFormData);
 loadFormData();
+// ===== ПРОДУКТИ =====
 const container = document.querySelector(".product__placeholder");
 const searchInput = document.querySelector("#searchInput");
 function renderProducts(list) {
