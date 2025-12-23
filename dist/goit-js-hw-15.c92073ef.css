@@ -74,4 +74,8 @@ button.delete {
 button.delete:hover {
   background-color: #c82333;
 }
+
+.searchInput {
+  width: 50%;
+}
 /*# sourceMappingURL=goit-js-hw-15.c92073ef.css.map */

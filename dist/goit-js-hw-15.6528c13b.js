@@ -807,62 +807,7 @@ searchInput.addEventListener("input", (e)=>{
     renderProducts(filtered);
 });
 
-},{"../js/data.js":"a4kWt","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","../templates/template.hbs":"49fDN"}],"a4kWt":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "products", ()=>products);
-const products = [
-    {
-        id: 1,
-        name: "Laptop",
-        price: 1500,
-        description: "A high-performance laptop for all your needs."
-    },
-    {
-        id: 2,
-        name: "Smartphone",
-        price: 700,
-        description: "A modern smartphone with an excellent camera."
-    },
-    {
-        id: 3,
-        name: "Headphones",
-        price: 200,
-        description: "Noise-cancelling headphones for better focus."
-    }
-];
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, '__esModule', {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"49fDN":[function(require,module,exports,__globalThis) {
+},{"../templates/template.hbs":"49fDN","../js/data.js":"a4kWt","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"49fDN":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _handlebars = require("handlebars");
@@ -12120,6 +12065,61 @@ var isSourceNode = "$$$isSourceNode$$$";
 };
 exports.SourceNode = SourceNode;
 
-},{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}]},["6DHTQ","6kb64"], "6kb64", "parcelRequirea64e", {})
+},{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}],"jnFvT":[function(require,module,exports,__globalThis) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"a4kWt":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "products", ()=>products);
+const products = [
+    {
+        id: 1,
+        name: "Laptop",
+        price: 1500,
+        description: "A high-performance laptop for all your needs."
+    },
+    {
+        id: 2,
+        name: "Smartphone",
+        price: 700,
+        description: "A modern smartphone with an excellent camera."
+    },
+    {
+        id: 3,
+        name: "Headphones",
+        price: 200,
+        description: "Noise-cancelling headphones for better focus."
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["6DHTQ","6kb64"], "6kb64", "parcelRequirea64e", {})
 
 //# sourceMappingURL=goit-js-hw-15.6528c13b.js.map
